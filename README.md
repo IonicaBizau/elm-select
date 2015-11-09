@@ -1,10 +1,11 @@
 # elm-select [![Support this project][donate-now]][paypal-donations]
+
 Select DOM elements and optionally call a function.
 
 ## Installation
 
 ```sh
-$ npm i elm-select
+$ npm i -g elm-select
 ```
 
 ## Example
