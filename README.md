@@ -5,7 +5,7 @@ Select DOM elements and optionally call a function.
 ## Installation
 
 ```sh
-$ npm i -g elm-select
+$ npm i elm-select
 ```
 
 ## Example
