@@ -2,21 +2,20 @@
 
 > Select DOM elements and optionally call a function.
 
-## Installation
+## :cloud: Installation
 
 ```sh
 $ npm i --save elm-select
 ```
 
-## Example
+## :clipboard: Example
 
 ```js
-// Dependencies
-var ElmSelect = require("elm-select");
+const elmSelect = require("elm-select");
 
 // Some examples
-var myElm = ElmSelect("#my-id")[0]
-  , myElms = ElmSelect(".some-class")
+let myElm = elmSelect("#my-id")[0]
+  , myElms = elmSelect(".some-class")
   ;
 
 function foo(elm, some, args) {
@@ -27,12 +26,12 @@ function foo(elm, some, args) {
 }
 
 // Take all the li elements from already selected element (#my-id)
-var liElms = ElmSelect("ul > li", foo, [2, 3], myElm);
+let liElms = elmSelect("ul > li", foo, [2, 3], myElm);
 ```
 
-## Documentation
+## :memo: Documentation
 
-### `ElmSelect(elm, fn, args, parent)`
+### `elmSelect(elm, fn, args, parent)`
 Select DOM elements and optionally call a function.
 
 #### Params
@@ -44,23 +43,19 @@ Select DOM elements and optionally call a function.
 #### Return
 - **NodeList** A node list containing the selected elements.
 
-## How to contribute
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
- - [`crossy`](https://github.com/IonicaBizau/crossy.js)
+ - [`crossy`](https://github.com/IonicaBizau/crossy.js)—Modify cross-browser CSS properties with one JavaScript call.
+ - [`css-cross-transform`](https://github.com/IonicaBizau/css.cross-transform.js)—Modify CSS transform properties with one JavaScript call.
+ - [`donate.js`](https://github.com/IonicaBizau/donate.js)—A JavaScript library for creating a friendly way to send money donations.
+ - [`match`](https://github.com/IonicaBizau/match.js#readme)—Simplest way to create match memory games.
+ - [`showalicense.com`](https://github.com/IonicaBizau/showalicense.com#readme)—A site to provide an easy way to show licenses and their human-readable explanations.
 
- - [`css-cross-transform`](https://github.com/IonicaBizau/css.cross-transform.js)
-
- - [`donate.js`](https://github.com/IonicaBizau/donate.js)
-
- - [`match`](https://github.com/IonicaBizau/match.js#readme)
-
- - [`showalicense.com`](https://github.com/IonicaBizau/showalicense.com#readme)
-
-## License
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 

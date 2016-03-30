@@ -1,9 +1,10 @@
-// Dependencies
-var ElmSelect = require("../lib");
+"use strict";
+
+const elmSelect = require("../lib");
 
 // Some examples
-var myElm = ElmSelect("#my-id")[0]
-  , myElms = ElmSelect(".some-class")
+let myElm = elmSelect("#my-id")[0]
+  , myElms = elmSelect(".some-class")
   ;
 
 function foo(elm, some, args) {
@@ -14,4 +15,4 @@ function foo(elm, some, args) {
 }
 
 // Take all the li elements from already selected element (#my-id)
-var liElms = ElmSelect("ul > li", foo, [2, 3], myElm);
+let liElms = elmSelect("ul > li", foo, [2, 3], myElm);
