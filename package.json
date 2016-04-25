@@ -1,6 +1,6 @@
 {
   "name": "elm-select",
-  "version": "2.0.0",
+  "version": "1.4.2",
   "description": "Select DOM elements and optionally call a function.",
   "main": "lib/index.js",
   "directories": {
@@ -27,5 +27,16 @@
   "dependencies": {
     "typpy": "^2.1.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
