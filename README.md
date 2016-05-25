@@ -1,5 +1,7 @@
 
-# elm-select [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/elm-select.svg)](https://www.npmjs.com/package/elm-select) [![Downloads](https://img.shields.io/npm/dt/elm-select.svg)](https://www.npmjs.com/package/elm-select) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+# elm-select
+
+ [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![AMA](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/elm-select.svg)](https://www.npmjs.com/package/elm-select) [![Downloads](https://img.shields.io/npm/dt/elm-select.svg)](https://www.npmjs.com/package/elm-select) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Select DOM elements and optionally call a function.
 
@@ -53,17 +55,6 @@ Select DOM elements and optionally call a function.
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## :dizzy: Where is this library used?
-If you are using this library in one of your projects, add it in this list. :sparkles:
-
-
- - [`crossy`](https://github.com/IonicaBizau/crossy.js)—Modify cross-browser CSS properties with one JavaScript call.
- - [`css-cross-transform`](https://github.com/IonicaBizau/css.cross-transform.js)—Modify CSS transform properties with one JavaScript call.
- - [`donate.js`](https://github.com/IonicaBizau/donate.js)—A JavaScript library for creating a friendly way to send money donations.
- - [`match`](https://github.com/IonicaBizau/match.js#readme)—Simplest way to create match memory games.
- - [`showalicense.com`](https://github.com/IonicaBizau/showalicense.com#readme)—A site to provide an easy way to show licenses and their human-readable explanations.
- - [`timer-app`](https://github.com/IonicaBizau/timer-app#readme)—A simple timer application.
- - [`validate5`](https://github.com/IonicaBizau/validate5#readme)—Form validations made easy.
 
 ## :scroll: License
 
