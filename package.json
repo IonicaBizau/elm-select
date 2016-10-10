@@ -1,6 +1,6 @@
 {
   "name": "elm-select",
-  "version": "1.4.5",
+  "version": "1.4.6",
   "description": "Select DOM elements and optionally call a function.",
   "main": "lib/index.js",
   "directories": {
