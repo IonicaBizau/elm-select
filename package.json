@@ -1,6 +1,6 @@
 {
   "name": "elm-select",
-  "version": "1.4.7",
+  "version": "1.4.8",
   "description": "Select DOM elements and optionally call a function.",
   "main": "lib/index.js",
   "directories": {
@@ -18,7 +18,7 @@
     "select",
     "dom"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/IonicaBizau/elm-select/issues"
@@ -32,12 +32,11 @@
     "bin/",
     "app/",
     "lib/",
-    "build/",
     "dist/",
     "src/",
+    "scripts/",
     "resources/",
     "menu/",
-    "scripts/",
     "cli.js",
     "index.js"
   ]
