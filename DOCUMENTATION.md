@@ -6,6 +6,7 @@ You can see below the API reference of this module.
 Select DOM elements and optionally call a function.
 
 #### Params
+
 - **String|Element|NodeList** `elm`: A stringified query selector, an element or a node list.
 - **Function** `fn`: If this function is provided, it will be called with the current element and additional arguments passed in `args`.
 - **Array** `args`: An array of arguments used in the `fn` function call (default: `[]`).
