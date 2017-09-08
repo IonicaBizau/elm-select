@@ -1,6 +1,6 @@
 {
   "name": "elm-select",
-  "version": "1.4.9",
+  "version": "1.4.10",
   "description": "Select DOM elements and optionally call a function.",
   "main": "lib/index.js",
   "directories": {
@@ -38,6 +38,9 @@
     "resources/",
     "menu/",
     "cli.js",
-    "index.js"
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
   ]
 }
