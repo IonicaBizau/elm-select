@@ -10,7 +10,11 @@
 ## :cloud: Installation
 
 ```sh
-$ npm i --save elm-select
+# Using npm
+npm install --save elm-select
+
+# Using yarn
+yarn add elm-select
 ```
 
 
